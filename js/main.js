@@ -42,8 +42,6 @@ const elem = document.querySelector("#skills");
 window.addEventListener("scroll",function()
 {
     var scrollPos = document.body.scrollTop;
-    console.log(scrollPos >= elem.getBoundingClientRect().top - (elem.offsetHeight * 0.5) );
-    console.log(scrollPos <= elem.getBoundingClientRect().top + (elem.offsetHeight * 0.49 ));
     if (scrollPos >= elem.getBoundingClientRect().top - (elem.offsetHeight * 0.5)  && (scrollPos <= elem.getBoundingClientRect().top + (elem.offsetHeight * 0.49 ))) {
        loadBars(1);
     }
