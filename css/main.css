@@ -963,10 +963,12 @@ form textarea:focus
     {
         position: relative;
     }
+}
+
+@media screen and (max-width: 1024px) {
     .fullscreen{
         width: 100vw !important;
-        height: 90vh !important;
-        object-fit:cover; 
+        height:90vh !important;
+        object-fit:none; 
     }
-    
 }
