@@ -1,0 +1,117 @@
+.icon
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 20px;
+    height: 20px;  
+    right: -25px;
+}
+
+.icon-rl
+{
+    margin: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 75px;
+    height: 75px; 
+    background-image: url(../src/icons-svg/rocket-league-logo-svgrepo-com.svg);   
+}
+.icon-rl-rank
+{
+    margin: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 75px;
+    height: 75px; 
+    background-image: url(../src/icons-svg/Daco_208262.png);   
+}
+
+.icon-csgo
+{
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 75px;
+    height: 75px;  
+    background-image: url(../src/icons-svg/counter-strike-global-offensive-2-logo-svgrepo-com.svg);
+}
+
+.icon-steam{background-image: url(../src/icons-svg/steam-svgrepo-com.svg);   }
+.icon-discord   {content:  url(../src/icons-svg/dc.svg);vertical-align: middle; height: 30px;width: 30px;}
+
+/* graph icons*/
+.icon-cpp   {   background-image: url(../src/icons-svg/cpp3-svgrepo-com.svg);}
+.icon-js    {   background-image: url(../src/icons-svg/javascript-svgrepo-com.svg);  }
+.icon-c {   background-image: url(../src/icons-svg/c3-svgrepo-com.svg); }
+.icon-3d    {   background-image: url(../src/icons-svg/blender-svgrepo-com.svg); }
+.icon-java  {   background-image: url(../src/icons-svg/java-svgrepo-com.svg); }
+.icon-php   {   background-image: url(../src/icons-svg/php2-svgrepo-com.svg); }
+.icon-css   {   background-image: url(../src/icons-svg/css-svgrepo-com.svg);    }
+.icon-sql   {   background-image: url(../src/icons-svg/sql-svgrepo-com.svg);  }
+.icon-eagle {   background-image: url(../src/icons-svg/eagle.ico); }
+.icon-python {   background-image: url(../src/icons-svg/python-svgrepo-com.svg); }
+.icon-siemns {   background-image: url(../src/icons-svg/siemens-logo-svgrepo-com.svg);}
+.icon-laravel {   background-image: url(../src/icons-svg/laravel2.svg);}
+.icon-flutter   {   background-image: url(../src/icons-svg/flutter2.svg)}
+
+/* FA icons*/
+.icon-bg
+{
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    display: inline-block; 
+    padding: 5px; 
+    border-radius: 100%; 
+}
+.fa-arrow-down
+{
+    color: rgb(0, 0, 0);
+}
+.fa-youtube-square,
+.fa-youtube,
+.fa-youtube-play
+{
+    color: rgb(255, 0, 0);
+    transition: margin-bottom 0.5s ease;
+}
+.fa-youtube-play:hover
+{
+    margin-bottom: 3px;
+}
+
+.fa-twitch
+{
+    color: rgb(0, 0, 255);
+}
+.fa-linkedin
+{
+    color: rgb(0, 0, 255);
+}
+.fa-instagram
+{
+    color: rgb(255, 255, 255);
+}
+
+.fa-share,.fa-home
+{
+    color: rgb(0, 0, 0);
+    transition: transform 0.5s ease, color 1s ease;
+}
+
+.fa-share:hover
+{
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+nav li:has(.fa-home):hover
+{
+    color: rgb(0, 0, 0);
+}
+nav li:has(.fa-home):hover
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}

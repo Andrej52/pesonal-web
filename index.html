@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="src/font-awesome-4.7.0/css/font-awesome.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide-item active">
+                    <div class="slide-content">
+                        <article>
+                            <h2>Welcome on my  personal page </h2>
+                            <p>Let me introduce myself a bit to you </p>
+                        </article>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-content">
+                        <img src="img/github.png" alt="img/ja.png">
+                        <div>
+                            <article>
+                                <h2>Dev</h2>
+                                <p>I'm  junior  dev (still learning new techniques)</p>
+                                <span>I have the most experience WEB DEV, but i can also handle other things like:</span>
+                                <ul>
+                                    <li>PLC programming</li>
+                                    <li>Python scripting</li>
+                                    <li>Electrical engineering</li>
+                                    <li>Knowledge of PC hardware</li>
+                                    <li>Servers and Cisco devices</li>
+                                    <li>and <a href="#skills">and more..</a></li>   
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-content">
+                        <img src="img/winner-cup-7809.svg" alt="">
+                        <div>
+                            <article>
+                                <h2>Awards</h2>
+                                <p>I have been in few competitions, here they are: </p>
+                                <span>SYGA 2022 2nd place in Slovakia</span>
+                                <span>ZENIT- web develop 8th in Slovakia </span>
+                                <span>SOC 2022 - 6th in Slovakia</span>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-content">
+                        <h2>Projects</h2>
+                        <div>
+                            <article id="elapp_text">
+                                <h3>Electircal  calculator App </h3>
+                                <p>App is being developed in Flutter by programming language Dart</p>
+                                <p>Developing it in free time </p>
+                                <p><a href="https://github.com/Andrej52/eletric_app_calc">Repository  link</a></p>
+                            </article>
+                            <article id="oop_text">
+                                <h3>OOP-php "framework"</h3>
+                                <p>This frame has been/is  developed by me to help learning ppl with OOP to get better understanding about  MVC and object oriented programming</p>
+                                <p>Developing it also  in free time </p>
+                                <p><a href="https://github.com/Andrej52/OOP">Repository link</a></p>
+                            </article> 
+                            <article id="soc_text">
+                                <h3>Automatic bottle filler</h3>
+                                <p>Ths has been my gradual Project in high school wich gained 2 awards listed in awards </p>
+                                This machine has been projected and built by me <br>
+                                <a href="plnicka.html">Details about project</a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <span class="prev slider-button" onclick="slideIdx(-1)" >&#10094;</span>
+                <span class="next slider-button" onclick="slideIdx(+1)" >&#10095;</span>
+            </div>
+            <div class="slide-list">
+                <span class="slide-box active" onclick="currentSlide(1)"></span> 
+                <span class="slide-box" onclick="currentSlide(2)"></span> 
+                <span class="slide-box" onclick="currentSlide(3)"></span> 
+                <span class="slide-box" onclick="currentSlide(4)"></span> 
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>    <a href="#aboutme">about</a>         </li>
+            <li>    <a href="#skills">skills</a>            </li>
+            <li>    <a href="#photos">photoshooting</a>            </li>
+            <li>    <a href="#gaming">gaming</a>            </li>
+            <li>    <a href="contact.html">contact</a>   </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="aboutme">
+            <h2>About me:</h2>
+                <div class="abt-container">
+                    <img src="img/ja.png" alt="">
+                        <div>
+                            <article>
+                                <h3>Basic info</h3>
+                                <p>Nationality: Slovak</p>
+                                <p>Date of birth: march 2003</p>
+                                <p>Nové Mesto nad Váhom, Slovakia </p>
+                                <p>Most of the time in Brno</p>
+                            </article>
+                            <article style="padding-top:5px ;">
+                                <h3>What to tell you about me ...</h3>
+                                I like cars and in my free time i code, drive with friends,<br> 
+                                fix thing or trying to make myself new things on 3D printer or other things<br> 
+                                like welding, spraypainting, or just watching youtube to improve my english<br> 
+                                by watching some car youtubers or coding youtubers. Also making firesport<br>
+                                or just play games 
+                            </article>
+                        </div>
+                    <div>
+                        <h3>Hobbies</h3>
+                        <ul>
+                            <li>Cars</li>
+                            <li>E-sport (Gaming)</li>
+                            <li>PC hardware</li>
+                            <li>Self-learning new skills</li>
+                            <li>Firesport</li> 
+                            <li>3D priting</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aditional-info">
+                    <article>
+                        <h3>Education:</h3>
+                        <p>high school: <a href="https://www.sosst.eu">SPS-Stará Turá</a></p>
+                        <p>currently studying:</p>
+                        <p>University: <a href="https://www.fit.vut.cz/.en">BUT  Faculty of information tehchnology</a></p>
+                    </article>
+                    <article>
+                        <h3>Work experience</h3>
+                        <p>PLC programmer Porsche (4months)</p>
+                        <p>IT-support on SPS-Stará Turá (now part-time)</p>
+                        <p>Freelance electrician </p>
+                        <p>Freelance webs </p>
+                    </article>
+                    <article>
+                        <h3>Certificates:</h3>
+                        <p>Electrotechnician slovak(§22)</p>
+                    </article>
+                </div>
+        </section>
+        <section id="skills">
+            <h2>Skill graph</h2>
+            <div class="bar-frame">
+                <div class="bar-legend">
+                    <span>Seniority:</span>
+                    <span>Rookie</span>
+                    <span>Junior</span>
+                    <span>medior</span>
+                    <span>Senior</span>
+                    <span>Expert</span>
+                </div> 
+                <div class="bar-list">
+                </div>
+                <div class="bars">
+                    <div class="bar-list">
+                        <span class="bar"><i class="icon icon-cpp"></i></span>
+                        <span class="bar"><i class="icon icon-java"></i></span>
+                        <span class="bar"><i class="icon icon-c"></i></span>
+                        <span class="bar"><i class="icon icon-php"></i></span>
+                        <span class="bar"><i class="icon icon-js"></i></span>
+                        <span class="bar"><i class="icon icon-css"></i></span>
+                        <span class="bar"><i class="icon icon-sql"></i></span>
+                        <span class="bar"><i class="icon icon-python"></i></span>
+                        <span class="bar"><i class="icon icon-3d"></i></span>
+                        <span class="bar"><i class="icon icon-siemns"></i></span>
+                        <span class="bar"><i class="icon icon-eagle"></i></span>
+                        <span class="bar"><i class="icon icon-laravel"></i></span>
+                        <span class="bar"><i class="icon icon-flutter"></i></span>
+                    </div>
+                </div>
+                <div class="lines">
+                    <i class="line"></i>
+                    <i class="line"></i>
+                    <i class="line"></i>
+                    <i class="line"></i>
+                    <i class="line"></i>
+                </div>
+            </div>
+        </section>
+        <section id="photos">
+            <h2>My world through camera</h2>
+            <div>
+                <img src="./img/photos2/DSCN0165.JPG" alt="">
+                <img src="./img/photos2/DSCN0169.JPG" alt="">
+                <img src="./img/photos2/DSCN0182.JPG" alt="">
+                <img src="./img/photos2/DSCN0194.JPG" alt="">
+                <img src="./img/photos2/DSCN0197.JPG" alt="">
+                <img src="./img/photos2/DSCN0235.JPG" alt="">
+                <img src="./img/photos2/DSCN2158.JPG" alt="">
+            </div>
+        </section>
+        <section id="gaming">
+            <h2>
+                    <span><i class="icon-bg"><a class="fa fa-2x fa-twitch" href="https://www.twitch.tv/andrej_7_svk"></a> </i></span>
+                    <span><a class="steam" href="https://steamcommunity.com/id/Andrej-SVKofficial/"> Me as a Gamer</a></span>
+                    <span><i class="icon-bg"><a class="fa fa-2x fa-youtube-play" href="https://www.youtube.com/channel/UC1SjfNWLtNGKwK-Z6Hp2rkA"></a></i></span>
+            </h2>
+            <article>
+                <h3>Basic info about gaming </h3>
+                <p>Obivously as most of the young ppl i do play video games, so here's something about me as a gamer </p>
+                <p>
+                   <i class="fa  fa-steam-square fa-spin"></i>
+                    Games: Counter Strike Global Offensive, Rocket League, War Thunder
+                    <i class="fa  fa-steam-square fa-spin"></i
+                </p>
+                <p> Origin(EA): andrej221-svk  Games: Battlefield 4</p>
+                <p>Also i was doing some time  admin on dayz servers</p>
+                <p>Also interested in moding (Dayz,Farming) </p>
+            </article>
+            <article>
+                <h3><a class="icon-rl" href="https://steamcommunity.com/app/252950"></a></h3>
+                <div class="game-info">
+                    <span>
+                        <p>Highest rank:</p>
+                        <a class="icon-rl-rank" href="https://rocketleague.tracker.network/rocket-league/profile/epic/Andrej-SVK/overview"></a>
+                    </span>
+                    <p><a href="https://rocket-league.com/player/Andrej-SVK">RL-garage profile</a></p>
+                    <p><a href="https://rocket-league.com/inventory/Andrej-SVK">Trade</a></p>
+                </div>
+            </article>
+            <article>
+                <h3><a class="icon-csgo" href="https://www.faceit.com/en/players/andrej-svk"></a></h3>
+                    <div class="game-info">
+                        <p>Highest Reached rank : Global Elite</p>
+                        <p>former amateur Teams: Assasins, Freezers, Andromeda Academy</p>
+                        <p>Role: Sniper (main/second AWP)</p>
+                        <p>I was also representing VUT Brno in college league</p>
+                    </div>
+                    <div class="video-wrap"><iframe src="https://www.youtube.com/embed/P1M2vA9AVh0?autoplay=0&mute=1"></iframe></div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h4>Socials:</h4>
+            <ul>
+                <li><a href="https://www.youtube.com/@andrejmrazik1430"><i class="fa fa-2x fa-youtube"></i></a></li>
+                <li><a href="https://github.com/Andrej52"><i class="fa fa-2x fa-github"  aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/andrej-mrázik-43961a266/"><i class="fa fa-2x fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/mrazikandrej"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a></li>
+                <li><i class="icon-discord"></i>id:andrejsvk</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>This page has been made by Andrej Mrázik</li>
+                <li>Copyright: Andrej Mrázik 2024</li>
+                <li>e-mail: <a href="mailto:andrejmrazik8@gmail.com">andrejmrazik8@gmail.com</a></li>
+            </ul>
+        </div>
+    </footer>
+        <button class="top-button" onclick="goTop()"><i class="fa fa-arrow-down"></i></button>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="src/font-awesome-4.7.0/css/font-awesome.css">
+    <title>Contact me </title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a class="fa fa-home" href="index.html"></a></li>
+        </ul>
+    </nav>
+        <div class="form-wrap">
+            <h3>You can contact me via this  mailform or via socials in the footer </h3>
+            <form id="contact-form">
+                <label for="email">your email addres: </label> <input id="email" name="email" type="text">
+                <label for="subject">subject: </label> <input id="subject" name="subj" type="text">
+                <p>enter your message here</p>
+                <textarea name="content"   rows="10"></textarea>
+                <button id="send" type="submit" class="fa fa-share" onclick="send_mail()"></button>
+            </form>
+        </div>
+    <footer style="background: linear-gradient(rgb(0, 152, 247),cyan);">
+        <div>
+            <h4>Socials:</h4>
+            <ul>
+                <li><a href="https://www.youtube.com/@andrejmrazik1430"><i class="fa fa-2x fa-youtube"></i></a></li>
+                <li><a href="https://github.com/Andrej52"><i class="fa fa-2x fa-github"  aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/andrej-mrázik-43961a266/"><i class="fa fa-2x fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/mrazikandrej"><i  class="fa fa-2x fa-instagram" aria-hidden="true"></i></a></li>
+                <li><i class="icon-discord"></i>id:andrejsvk</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>This page has been made by Andrej Mrázik</li>
+                <li>Copyright: Andrej Mrázik 2024</li>
+                <li>e-mail: <a href="mailto:andrejmrazik8@gmail.com">andrejmrazik8@gmail.com</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+<script>
+function send_mail()
+{ 
+    alert("only demo");
+}
+</script>
